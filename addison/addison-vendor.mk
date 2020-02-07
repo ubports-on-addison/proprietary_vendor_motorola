@@ -520,3 +520,5 @@ PRODUCT_PACKAGES += \
     izat.xt.srv \
     qcrilhook \
     qti-telephony-common
+# Halium fix, no need for all the frameworks and packages
+PRODUCT_PACKAGES = libril
